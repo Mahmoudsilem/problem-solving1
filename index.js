@@ -132,7 +132,7 @@ Both loop on the array.
 - forEach use cases: looping on an array and you do not need to use brake
 
 ------------------------------------------------------------------------
-
+   
 3-What are the main differences between == and ===?
 == Operator that compare value only Ex:1==”1” =>true.
 === Compare value and data type Ex 1 ===”1” =>false.
