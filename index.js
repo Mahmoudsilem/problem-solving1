@@ -122,7 +122,12 @@
 // const arr = str.split(" ");
 // console.log(arr);
 //---------------------------------------------------------
+
+
+
+
 /*
+/////////////////////////B. Part 2: Essay Questions
 1.	What is the difference between forEach and for...of? When would you use each?
 Both loop on the array.
 - forEach uses arow function that always return undefined.
@@ -132,10 +137,47 @@ Both loop on the array.
 - forEach use cases: looping on an array and you do not need to use brake
 
 ------------------------------------------------------------------------
-   
+
+ 2- What is hoisting and what is the Temporal Dead Zone (TDZ)? Explain with examples
+-	Hoisting is the moving of variable and functions declaration to the top of the scope before executing the code during the run time.
+-	TDZ: Is the area from the beginning of the scope to the assignment of the variable declared by let or const.
+-	In TDZ the variable can’t be accessed.
+-	Ex for temporal dead zone:
+ function TDZ(){
+//     let x;
+//     //code in the TDZ
+//     //code in the TDZ
+//     //code in the TDZ
+//     //code in the TDZ
+//     //code in the TDZ
+//     //end of TDZ
+//     x = 5
+// }
+
+ -------------------------
 3-What are the main differences between == and ===?
 == Operator that compare value only Ex:1==”1” =>true.
 === Compare value and data type Ex 1 ===”1” =>false.
 
+----------------------------------------------------------
+4. Explain how try-catch works and why it is important in async operations
+try-catch work by executing the code in the try if an error occurred it stops the execution of the code and executes the code is the catch and catches the error in the catch parameter.
+-It is important in async operations because async operations often used with APIs which can case errors(front end wise)
+-General handling rejected promises 
+
+-----------------------------
+
+5. What’s the difference between type conversion and coercion? Provide examples of each.
+- type conversion: is done intentionally by the programmer (explicit conversation).
+- type coercion: is done implicitly by the programming language during the time run.
+Examples:
+-type conversion 
+let x = "5";
+x = Number(x);
+- type coercion
+let x = "5";
+let y = 10 - x; //5 as a number coercion is done during the run time
 */
 
+ 
+ 
