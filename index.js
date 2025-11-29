@@ -144,14 +144,13 @@ Both loop on the array.
 -	In TDZ the variable can’t be accessed.
 -	Ex for temporal dead zone:
  function TDZ(){
-//     let x;
-//     //code in the TDZ
-//     //code in the TDZ
-//     //code in the TDZ
-//     //code in the TDZ
-//     //code in the TDZ
-//     //end of TDZ
-//     x = 5
+    //     //code in the TDZ
+    //     //code in the TDZ
+    //     //code in the TDZ
+    //     //code in the TDZ
+    //     //code in the TDZ
+    //     //end of TDZ
+    //     let x = 5;
 // }
 
  -------------------------
